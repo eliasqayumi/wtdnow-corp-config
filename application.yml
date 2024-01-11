@@ -1,0 +1,26 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://register-service-clusterip-service:8761/eureka/
+  instance:
+    hostname: localhost
+
+#microservice:
+ # payment-service:
+  #  endpoints:
+   #   endpoint:
+    #    uri: http://PAYMENT-SERVICE/payment-service
+ # customer-service:
+  #  endpoints:
+   #   endpoint:
+    #    uri: http://CUSTOMER-SERVICE/customer-service
+#  business-service:
+ #   endpoints:
+  #    endpoint:
+   #     uri: http://business-service-clusterip-service/business-service
+ # security-service:
+  #  endpoints:
+   #   endpoint:
+    #    uri: http://security-service-clusterip-service/business-service
