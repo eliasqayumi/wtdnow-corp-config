@@ -7,20 +7,20 @@ eureka:
   instance:
     hostname: localhost
 
-microservice:
-  payment-service:
-    endpoints:
-      endpoint:
-        uri: http://PAYMENT-SERVICE/payment-service
-  customer-service:
-    endpoints:
-      endpoint:
-        uri: http://CUSTOMER-SERVICE/customer-service
-  business-service:
-    endpoints:
-      endpoint:
-        uri: http://business-service-clusterip-service/business-service
-  security-service:
-    endpoints:
-      endpoint:
-        uri: http://security-service-clusterip-service/business-service
+#microservice:
+#  payment-service:
+#    endpoints:
+#      endpoint:
+#        uri: http://PAYMENT-SERVICE/payment-service
+#  customer-service:
+#    endpoints:
+#      endpoint:
+#        uri: http://CUSTOMER-SERVICE/customer-service
+#  business-service:
+#    endpoints:
+#      endpoint:
+#        uri: http://business-service-clusterip-service/business-service
+#  security-service:
+#    endpoints:
+#      endpoint:
+#        uri: http://security-service-clusterip-service/business-service
