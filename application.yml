@@ -3,7 +3,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://edureka-service:8761/eureka/
+      defaultZone: http://http://eureka-0.eureka.backend-wtdnow.svc.cluster.local:8761/eureka/
   instance:
     hostname: localhost
 management:
