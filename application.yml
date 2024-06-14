@@ -83,3 +83,9 @@ oauth2:
       issuer: ${WTD_NOW_ISSUER:https://it.wtdnow.com}
 REDIS_HOST: redis
 REDIS_PORT: 6379      
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
+
