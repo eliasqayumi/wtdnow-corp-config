@@ -40,14 +40,14 @@ spring:
     producer:
       bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
 
     # Kafka Consumer Configuration
     consumer:
       bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       group-id: user-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer  
   servlet:
     multipart:
       enabled: true
