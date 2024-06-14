@@ -80,6 +80,6 @@ oauth2:
   wtdnow:
     api:
       verifier: ${WTD_NOW_VERIFIER:http://localhost:8989/oauth2/jwks} # Todo: tobe fixed should change with security service
-      issuer: ${WTD_NOW_ISSUER:https://www.wtdnow.com}
+      issuer: ${WTD_NOW_ISSUER:https://it.www.wtdnow.com}
 REDIS_HOST: redis
 REDIS_PORT: 6379      
