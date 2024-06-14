@@ -18,7 +18,7 @@ security:
           client-secret: 1LK03LPAfxgiXH4V5STB4SiXGtrKSLfNRkiOzJSakKQ
         business-service:
           client-id: business-service-client
-          client-secret: Gx-hj8HPvEku3Bhx2z2VDJFMd1vAnNCWpBqtwdadA9I
+          client-secret: ZnZXJdvff1SThBt8nZE26P-I2lEKZ4vywTsOgbQnyMc
         payment-service:
           client-id: client-id
           client-secret: secret
