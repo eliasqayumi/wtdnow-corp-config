@@ -6,31 +6,80 @@ eureka:
       defaultZone: http://eureka-0.eureka.backend-wtdnow.svc.cluster.local:8761/eureka/
   instance:
     hostname: localhost
+
+
+
+security:
+  oauth2:
+    client:
+      registration:
+        customer-service:
+          client-id: customer-service-client
+          client-secret: ltBTE3qoroQVsJXwBUUWSZe2LGoJJMcQBbe8PPEEv_k
+        business-service:
+          client-id: business-service-client
+          client-secret: o0si9Y1zv9dwJZeIqe3wGybd_2kgruT-UcHoHZ-8Udw
+        payment-service:
+          client-id: client-id
+          client-secret: secret
+spring:
+  output:
+    ansi:
+      enabled: always
+  jpa:
+    open-in-view: false
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  # Kafka Producer Configuration
+  kafka:
+    bootstrap-servers: ${KAFKA_SERVICE:localhost:9092}
+    producer:
+      bootstrap-servers: ${KAFKA_SERVICE:localhost:9092}
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+    # Kafka Consumer Configuration
+    consumer:
+      bootstrap-servers: ${KAFKA_SERVICE:localhost:9092}
+      group-id: user-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
 management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
   endpoint:
     health:
       probes:
         enabled: true
   health:
-    liveness-state:
-      enabled: true
     readiness-state:
       enabled: true
 
-#microservice:
-#  payment-service:
-#    endpoints:
-#      endpoint:
-#        uri: http://PAYMENT-SERVICE/payment-service
-#  customer-service:
-#    endpoints:
-#      endpoint:
-#        uri: http://CUSTOMER-SERVICE/customer-service
-#  business-service:
-#    endpoints:
-#      endpoint:
-#        uri: http://business-service-clusterip-service/business-service
-#  security-service:
-#    endpoints:
-#      endpoint:
-#        uri: http://security-service-clusterip-service/business-service
+# OAuth2 resource config
+oauth2:
+  google:
+    api:
+      verifier: ${GOOGLE_VERIFIER:https://www.googleapis.com/oauth2/v3/certs}
+      issuer: ${GOOGLE_ISSUER:https://accounts.google.com}
+  apple:
+    api:
+      verifier: ${APPLE_VERIFIER:https://appleid.apple.com/auth/keys}
+      issuer: ${APPLE_ISSUER:https://appleid.apple.com}
+  wtdnow:
+    api:
+      verifier: ${WTD_NOW_VERIFIER:http://localhost:8989/oauth2/jwks} # Todo: tobe fixed should change with security service
+      issuer: ${WTD_NOW_ISSUER:https://www.wtdnow.com}
+REDIS_HOST: localhost
+REDIS_PORT: 6379      
