@@ -47,7 +47,7 @@ spring:
       bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       group-id: user-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer  
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
   servlet:
     multipart:
       enabled: true
