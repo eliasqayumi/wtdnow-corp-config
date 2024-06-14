@@ -18,7 +18,7 @@ security:
           client-secret: yEyQl7anuM6-YyA0P4qpXOpH2ssiwNgW4-SqsFArjuw
         business-service:
           client-id: business-service-client
-          client-secret: wXMjmeA2pEwU5opPJtMjYLY0RIkkhPlD3hpiUyoKiWY
+          client-secret: AQ5renw1B0EP7Q9rCxg0UsmYFRUy19UfQCt2EKLl4Lk
         payment-service:
           client-id: client-id
           client-secret: secret
