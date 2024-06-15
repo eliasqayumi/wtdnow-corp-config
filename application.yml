@@ -21,7 +21,7 @@ security:
           client-secret: Dj-p90XFE309XScfX55VQoSsqI4xmkLFef3aMR7YE58
         payment-service:
           client-id: payment-service-client
-          client-secret: 80QPBAow6PDuOKr5I579O6Mmod1FNHNrdHjHEIr_cJo
+          client-secret: B6KhfFdWevk-zzUyzBHlvc3R7QjmEQPBSYKnbRRT6xs
 spring:
   output:
     ansi:
