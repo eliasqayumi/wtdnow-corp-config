@@ -21,7 +21,7 @@ security:
           client-secret: dCLn3HwK5FCSabMnje-lbCCEqnQ0LIcEfVEcUmM6rlA
         payment-service:
           client-id: payment-service-client
-          client-secret: WuuMZNyAuublakGwbPjwhALAT6GqyuM2-afqFRJ9YZI
+          client-secret: xnvozLZBg7C1T2RFKKt4wEWuUedsZm4uRSZ1Zf7hIzw
 spring:
   output:
     ansi:
