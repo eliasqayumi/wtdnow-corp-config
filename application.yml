@@ -20,8 +20,8 @@ security:
           client-id: business-service-client
           client-secret: 4pQTGIK6uMupexdB24aqWlUusSQBjV3BGXKmSY2w9_Y
         payment-service:
-          client-id: client-id
-          client-secret: secret
+          client-id: payment-service-client
+          client-secret: 80QPBAow6PDuOKr5I579O6Mmod1FNHNrdHjHEIr_cJo
 spring:
   output:
     ansi:
