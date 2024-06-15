@@ -18,7 +18,7 @@ security:
           client-secret: 3-nhr-eQeHu_WbaJUgorHuCdwN0qO7rCVGvQJMpu9Ns
         business-service:
           client-id: business-service-client
-          client-secret: tyB3W20RQ8P6vBZ84BbQ-bZ02QMVV1QyOwYRwDTTaO0
+          client-secret: zEt1z323PC84fg9uv9VQwKNDIY-2jCeg1xqbtJFytCs
         payment-service:
           client-id: payment-service-client
           client-secret: fu3KePd_MntPOBjdBy3HEOs1VWYzwf6sqFEFqJf5B_M
