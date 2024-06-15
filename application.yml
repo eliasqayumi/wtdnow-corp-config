@@ -18,7 +18,7 @@ security:
           client-secret: GBzLLX_CubFBdX3MGrEZojM_ukC1R7ait7yPWmn5PKA
         business-service:
           client-id: business-service-client
-          client-secret: nEvon_Cf4sxmdJORbTzS-lAYdbmU_VEE6YzJg9CFuR4
+          client-secret: 8iYtOG6zqaTte2B-nUmAwhtXDK5cToddBGWrYLQm7ss
         payment-service:
           client-id: payment-service-client
           client-secret: MwG-rTuMxEoiICjmVofVkb-hc12ME0SluFzg5YX_OZc
