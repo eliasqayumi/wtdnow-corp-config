@@ -40,7 +40,7 @@ spring:
     producer:
       bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+      value-serializer: org.springframework.kafka.support.serializer.StringOrBytesSerializer
 
     # Kafka Consumer Configuration
     consumer:
