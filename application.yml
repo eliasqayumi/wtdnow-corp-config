@@ -18,7 +18,7 @@ security:
           client-secret: zCncWAWe_138G2DCGLA3YKudc6_CvDa3SS0KDyKPJNQ
         business-service:
           client-id: business-service-client
-          client-secret: S0DzVHZoChIVU4C-Rsrf1MVY0AGnyFPICnkjo5WbwtU
+          client-secret: 18ftBHyDZlu-CP_DRZ6L6P1NcXEHASSxgZ6-UCbya3s
         payment-service:
           client-id: payment-service-client
           client-secret: jTORKAu0zIcqs95JoZ3MJUHzPc4yMTeEZTRAkr8KJPk
