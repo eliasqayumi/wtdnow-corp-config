@@ -15,7 +15,7 @@ security:
       registration:
         customer-service:
           client-id: customer-service-client
-          client-secret: lkhhKyGkW8yRP2-6vzvEXkAR6qJ6_nf3N_EeRDyy8Pc
+          client-secret: pPu_JdhEe0Bx0OnU5ltrlZ9XWr2GmDkfd6rr6Q2QTts
         business-service:
           client-id: business-service-client
           client-secret: CY6UNd-IyH_arhIWggonaYtUc63J1G9yMxJFsNe2xHw
