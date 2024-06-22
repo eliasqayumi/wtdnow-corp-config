@@ -15,7 +15,7 @@ security:
       registration:
         customer-service:
           client-id: customer-service-client
-          client-secret: QesK3tjJi2vwqE5SXCntU82phmqquXjj2ORG5qsv_9w
+          client-secret: betwADA44KJu1muPI7Gq6uF6xQNDvKR-ldO6tdUAd3s
         business-service:
           client-id: business-service-client
           client-secret: AYmSdX9Op6wFTfeSjVccHRLp3YQVN7D9Y8WVhNQVxI4
