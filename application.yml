@@ -18,7 +18,7 @@ security:
           client-secret: nX2C-7J3hnB4zuJbRkbiPoWhdHLJVThFqGKdOKpWt0E
         business-service:
           client-id: business-service-client
-          client-secret: CYSxSRPcvxXuQNiJ5NYyHNp3rLtxZHlv-267W4ljmIw
+          client-secret: 4fnFdfWSGCnA3XUyQL4X6CYZYEn_dyGGfjrWF04gbwI
         payment-service:
           client-id: payment-service-client
           client-secret: Mx0-esq0uP1t01sruGJXRcMzusLq714sl1jLYG62Fr4
