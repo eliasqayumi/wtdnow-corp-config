@@ -18,7 +18,7 @@ security:
           client-secret: jhC6aMLT29lnUfvQSX-66xY1CDXAt84XhUBREKVwzxU
         business-service:
           client-id: business-service-client
-          client-secret: 277tiS5bsRxEk1Zvfbaxn1x5XTtUn-TIOA9I6vl19Fw
+          client-secret: XimuMczM_dlHgqm61OP1Y0ukzJBGaibTWzU-v9_urWA
         payment-service:
           client-id: payment-service-client
           client-secret: uk-cakRy0jMMgn0D8WLsBqNefrpoj7p1OJEwCF7ok5Y
