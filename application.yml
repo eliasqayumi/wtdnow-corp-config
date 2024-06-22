@@ -18,7 +18,7 @@ security:
           client-secret: betwADA44KJu1muPI7Gq6uF6xQNDvKR-ldO6tdUAd3s
         business-service:
           client-id: business-service-client
-          client-secret: AYmSdX9Op6wFTfeSjVccHRLp3YQVN7D9Y8WVhNQVxI4
+          client-secret: a3mMk-UPUaL5RfQ7CssobG8ZCP-3bf6rpGQ3vqqgkKY
         payment-service:
           client-id: payment-service-client
           client-secret: FEqQAybwZ3Ep2S5nLBGrP7aZzHzKbaAXcloayMACElo
