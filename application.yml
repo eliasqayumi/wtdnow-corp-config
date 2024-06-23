@@ -13,31 +13,6 @@ security:
           client-id: payment-service-client
           client-secret: e7aA5VgiG-i1pSKYpvz367SngLMH-oep7joRv8ZaE-A
 spring:
-  datasource:
-    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/what_to_do}
-    username: ${DATABASE_USERNAME:root}
-    password: ${DATABASE_PASSWORD:wtdnow@456}
-  devtools:
-    livereload:
-      enabled: false
-  data:
-    redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
-  output:
-    ansi:
-      enabled: always
-  output:
-    ansi:
-      enabled: always
-  jpa:
-    open-in-view: false
-    show-sql: false
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
   # Kafka Producer Configuration
   kafka:
     bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
@@ -85,18 +60,11 @@ oauth2:
     api:
       verifier: ${WTD_NOW_VERIFIER:http://security-server-svc/oauth2/jwks}
       issuer: ${WTD_NOW_ISSUER:https://uat.wtdnow.com}
-REDIS_HOST: redis
-REDIS_PORT: 6379      
 logging:
   level:
     org:
       springframework:
         security: TRACE
-        cloud.gateway: DEBUG      
 CLOUD_GATEWAY_PORT: 8989
 LOGO_PATH: /Users/eliasqayumi/what-to-do.png
-github:
-  token: ${GITHUB_TOKEN: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}
-  repo: ${GITHUB_REPO:eliasqayumi/cloud-config-server}
-  path: ${GITHUB_PATH:application.yml}        
 
