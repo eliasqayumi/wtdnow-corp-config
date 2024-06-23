@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: ${EUREKA_SERVICE_FULL_URL:http://localhost:8761/eureka}
+      defaultZone: http://eureka-0.eureka.backend-wtdnow.svc.cluster.local:8761/eureka
     fetch-registry: true
     register-with-eureka: true
   instance:
