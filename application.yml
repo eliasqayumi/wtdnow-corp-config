@@ -79,7 +79,7 @@ oauth2:
       issuer: ${APPLE_ISSUER:https://appleid.apple.com}
   wtdnow:
     api:
-      verifier: ${WTD_NOW_VERIFIER:http://security-server-svc/oauth2/jwks} # Todo: tobe fixed should change with security service
+      verifier: ${WTD_NOW_VERIFIER:http://security-server-svc/oauth2/jwks}
       issuer: ${WTD_NOW_ISSUER:https://uat.wtdnow.com}
 REDIS_HOST: redis
 REDIS_PORT: 6379      
