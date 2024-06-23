@@ -21,7 +21,7 @@ security:
           client-secret: 664c5rD1wBS7XzbJ7aYxEGx49w9uvXotG2fc0RSsoRc
         payment-service:
           client-id: payment-service-client
-          client-secret: cF_JS9n0W2zFqarXHny6cOifWenvQHYBfpu7YAoERiQ
+          client-secret: e7aA5VgiG-i1pSKYpvz367SngLMH-oep7joRv8ZaE-A
 spring:
   output:
     ansi:
