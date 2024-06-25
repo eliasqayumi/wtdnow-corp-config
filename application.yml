@@ -11,7 +11,7 @@ security:
           client-secret: YMPPR_3GSJRPDPhWzyXQ0j5p5ohYSGL5S5PbCP_-goc
         payment-service:
           client-id: payment-service-client
-          client-secret: da94r1Gzh-yif2PmV3YTYePqUT5OeFr58rHE5Jb9zHk
+          client-secret: iFR7uSA8_7nqYJv2Fk6ijWY22Sa11iFYtf8prLfEfDg
 spring:
   # Kafka Producer Configuration
   kafka:
