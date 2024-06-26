@@ -66,5 +66,5 @@ logging:
       springframework:
         security: TRACE
 CLOUD_GATEWAY_PORT: 8989
-LOGO_PATH: /Users/eliasqayumi/what-to-do.png
+LOGO_PATH: /var/static/what-to-do.png
 
