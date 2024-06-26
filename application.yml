@@ -8,7 +8,7 @@ security:
           client-secret: CK-5NwhxC5QPorpw5_7v6CWz32nX_81xoZFD4HQJxJM
         business-service:
           client-id: business-service-client
-          client-secret: NKNUpTIFcJ8GcC9isS01pPbAuAsJtJ5nht68KrL4rjo
+          client-secret: 4dQ7d3dfKDuCxPbgQ7Ogz4BwbXU4iAGPCouyEeQYjx0
         payment-service:
           client-id: payment-service-client
           client-secret: 2EbwCToLzgbKbxOKtTGPTtQLg9Te8-aOfmGt7ABd_ao
