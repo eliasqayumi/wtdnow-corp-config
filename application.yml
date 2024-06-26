@@ -11,7 +11,7 @@ security:
           client-secret: JXd0ncFL1UlohACD1NU-UjYmoxVIoIjlhPJI1KhThhk
         payment-service:
           client-id: payment-service-client
-          client-secret: HxydqwtCFi-l6dXBpGBdH-OxfAtUfafsYTA1f5Gjcsc
+          client-secret: -pYO5GLnQVgBQ_zRP3bqz9ev9vEOYMCgFYbqWYlmPG8
 spring:
   # Kafka Producer Configuration
   kafka:
