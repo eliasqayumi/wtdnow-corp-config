@@ -8,7 +8,7 @@ security:
           client-secret: Tb0gfSfS_XC8zYsxgd_7ukBN66CK5p4XjhsdwsHeMVA
         business-service:
           client-id: business-service-client
-          client-secret: 6P0zD-QDF0g3BSu5AazXI2HIyTjRFfef303p6hI0Wjw
+          client-secret: q9Q1d_dVjmylCSM4U1CqH9SxJRqXziTN3gCtB8QEQY8
         payment-service:
           client-id: payment-service-client
           client-secret: uuvnMpVxeO60dsNhABiJXwcKSPscRLsU_3LS1Ee7YOk
