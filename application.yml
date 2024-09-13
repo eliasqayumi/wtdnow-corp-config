@@ -61,9 +61,9 @@ oauth2:
       verifier: ${WTD_NOW_VERIFIER:http://security-server-svc/oauth2/jwks}
       issuer: ${WTD_NOW_ISSUER:https://uat.wtdnow.com}
 logging:
-  #level:
-   # org:
-    #  springframework:
+  level:
+    #org:
+     # springframework:
      #   security: DEBUG
     io:
       grpc: DEBUG
