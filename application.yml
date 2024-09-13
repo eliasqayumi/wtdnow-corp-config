@@ -66,9 +66,9 @@ logging:
      # springframework:
      #   security: DEBUG
     io:
-      grpc: DEBUG
+      grpc: TRACE
     net:
-      devh: DEBUG    
+      devh: TRACE    
 CLOUD_GATEWAY_PORT: 8989
 LOGO_PATH: /var/static/what-to-do.png
 
