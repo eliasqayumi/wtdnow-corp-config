@@ -15,15 +15,15 @@ security:
 spring:
   # Kafka Producer Configuration
   kafka:
-    bootstrap-servers: ${KAFKA_SERVICE:kafka-service:80}
+    bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
     producer:
-      bootstrap-servers: ${KAFKA_SERVICE:kafka-service:80}
+      bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.StringOrBytesSerializer
 
     # Kafka Consumer Configuration
     consumer:
-      bootstrap-servers: ${KAFKA_SERVICE:kafka-service:80}
+      bootstrap-servers: ${KAFKA_SERVICE:kafka-service:9092}
       group-id: user-group
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  
