@@ -59,7 +59,7 @@ oauth2:
   wtdnow:
     api:
       verifier: ${WTD_NOW_VERIFIER:http://security-server-svc/oauth2/jwks}
-      issuer: ${WTD_NOW_ISSUER:https://wtdnow.com}
+      issuer: ${WTD_NOW_ISSUER:https://uat.wtdnow.com}
 #logging:
 #  level:
 #    org:
